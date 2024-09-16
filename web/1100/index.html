@@ -25,6 +25,7 @@
             restore: 'restore.bin.bz2',
             rifRenamer: 'rifrenamer.bin.bz2',
             toDex: 'todex.bin.bz2'
+            frame4: "frame4.bin"
         };
     </script>
     <script src="../utils/common.js"></script>
@@ -64,6 +65,6 @@
             <button class="button" onclick="window.location.href = '../'" onmouseover="progress.innerHTML='Move back to PPPwn-Dashboard'" onmouseout="progress.innerHTML='Status'">Back</button>
         </div>
     </div>
-</body>
+</body><button class="button" onmouseover="progress.innerHTML='Frame4'" onmouseout="progress.innerHTML='Status'" onclick="injectPayload(payloadFiles.frame4)">Frame4</button>
 
 </html>
